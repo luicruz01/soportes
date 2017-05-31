@@ -1,0 +1,130 @@
+.soportes .product-tag, .soportes .product-detail, .soportes .l-i-icon{
+    background-color: #4aa3df !important;
+}
+.miscelaneos .product-tag, .miscelaneos .product-detail, .miscelaneos .l-i-icon {
+    background-color: #1abc9c !important;
+}
+.machetas .product-tag, .machetas .product-detail, .machetas .l-i-icon {
+    background-color: #2ecc71 !important;
+}
+.poleas-y-tensores .product-tag, .poleas-y-tensores .product-detail, .poleas-y-tensores .l-i-icon {
+    background-color: #9b59b6 !important;
+}
+.tornillos-estabilizadores .product-tag, .tornillos-estabilizadores .product-detail, .tornillos-estabilizadores .l-i-icon {
+    background-color: #f1c40f !important;
+}
+.tornillos-estabilizadores .l-i-icon{
+	background-color: #f1c40f !important;
+}
+.equipo-pesado .product-tag, .equipo-pesado .product-detail, .equipo-pesado .l-i-icon {
+    background-color: #e74c3c !important;
+}
+.bases .product-tag, .bases .product-detail,.bases .l-i-icon {
+    background-color: #e67e22 !important;
+}
+.equipo-original-oem .product-tag, .equipo-original-oem .product-detail, .equipo-original-oem .l-i-icon {
+    background-color: #999 !important;
+}
+.bujes-para-suspension .product-tag, .bujes-para-suspension .product-detail, .bujes-para-suspension .l-i-icon {
+    background-color: #2c3e50 !important;
+}
+
+.pa_linea-soportes .add_to_cart_button, .pa_linea-soportes .single_add_to_cart_button, .pa_linea-soportes .search-item-detail, .pa_linea-soportes .product-tag, .soportes .l-i-icon {
+    background-color: #4aa3df !important;
+}
+
+.pa_linea-miscelaneos .add_to_cart_button, .pa_linea-miscelaneos .single_add_to_cart_button, .pa_linea-miscelaneos .search-item-detail, .pa_linea-miscelaneos .product-tag, .miscelaneos .l-i-icon {
+    background-color: #1abc9c !important;
+}
+
+.pa_linea-machetas .add_to_cart_button, .pa_linea-machetas .single_add_to_cart_button, .pa_linea-machetas .search-item-detail, .pa_linea-machetas .product-tag, .machetas .l-i-icon {
+    background-color: #2ecc71 !important;
+}
+
+.pa_linea-poleas-y-tensores .add_to_cart_button, .pa_linea-poleas-y-tensores .single_add_to_cart_button, .pa_linea-poleas-y-tensores .search-item-detail, .pa_linea-poleas-y-tensores .product-tag, .poleas-y-tensores .l-i-icon {
+    background-color: #9b59b6 !important;
+}
+
+.pa_linea-tornillos-estabilizadores .add_to_cart_button, .pa_linea-tornillos-estabilizadores .single_add_to_cart_button, .pa_linea-tornillos-estabilizadores .search-item-detail, .pa_linea-tornillos-estabilizadores .product-tag, .tornillos-estabilizadores .l-i-icon {
+    background-color: #f1c40f !important;
+}
+
+.pa_linea-equipo-pesado .add_to_cart_button, .pa_linea-equipo-pesado .single_add_to_cart_button, .pa_linea-equipo-pesado .search-item-detail, .pa_linea-equipo-pesado .product-tag, .equipo-pesado .l-i-icon {
+    background-color: #e74c3c !important;
+}
+
+.pa_linea-equipo-original-oem .add_to_cart_button, .pa_linea-equipo-original-oem .single_add_to_cart_button, .pa_linea-equipo-original-oem .search-item-detail, .pa_linea-equipo-original-oem .product-tag, .equipo-original-oem .l-i-icon {
+    background-color: #999 !important;
+}
+
+.pa_linea-bujes-para-suspension .add_to_cart_button, .pa_linea-bujes-para-suspension .single_add_to_cart_button, .pa_linea-bujes-para-suspension .search-item-detail, .pa_linea-bujes-para-suspension .product-tag, .bujes-para-suspension .l-i-icon {
+    background-color: #2c3e50 !important;
+}
+
+.woof_submit_search_form{
+    font-size: 15px !important;
+    padding: 7px !important;
+}
+
+.woof_reset_search_form{
+	font-size: 15px !important;
+    padding: 7px !important;
+}
+
+.woof{
+	margin-top: -5px;
+}
+
+.num_star{
+	margin-left: 80%;
+    margin-top: -15%;
+    background-color: #4b7d3f;
+    width: 225px;
+    border-radius: 6px;
+}
+
+.s-filters {
+	visibility: hidden;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5;
+    visibility: hidden;
+}
+
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(4.5);    
+-moz-transform: scale(4.5);  
+-webkit-transform: scale(4.5);  
+-o-transform: scale(4.5);  
+transform: scale(4.5);    
+position:relative;      
+z-index:100;  
+}
+
+/**To keep upscaled images visible on mobile, 
+increase left & right margins a bit**/  
+@media only screen and (max-width: 768px) {   
+ul.gallery {      
+margin-left: 15vw;       
+margin-right: 15vw;
+}
+
+/**TIP: Easy escape for touch screens,
+give gallery's parent container a cursor: pointer.**/
+.DivName {cursor: pointer}
+}

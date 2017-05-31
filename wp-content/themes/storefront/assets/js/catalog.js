@@ -1,0 +1,3 @@
+function isValidUseruser() {
+	alert('Holaaa');
+}
